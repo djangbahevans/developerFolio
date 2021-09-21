@@ -14,7 +14,7 @@ const greeting = {
   username: "Evans Djangbah",
   title: "Hi all, I'm Evans",
   subTitle: emoji(
-    "A passionate Mechanical Engineer 🚀 with a huge crush on robots and making functional engineering designs. Excels in electronics, software development and embedded software and hardware as well."
+    "I'm a passionate Mechanical Engineer 🚀 with a huge crush on robots and making functional engineering designs. Excels in electronics, software development and embedded software and hardware as well."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -48,7 +48,7 @@ const skillsSection = {
     ),
     emoji("⚡ From design to development, to rendering, to electronics integration, Evans has got you covered"),
     emoji(
-      "⚡ I bring a wide range of skills to the fore to develop smart, foolproof solutions that just work"
+      "⚡ I bring a wide range of skills to the table to develop smart, foolproof solutions that just work"
     )
   ],
 
@@ -56,38 +56,38 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,10 +102,9 @@ const educationInfo = {
       logo: require("./assets/images/knust_logo.png"),
       subHeader: "Bachelor of Science in Mechanical Engineering",
       duration: "September 2013 - July 2017",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Graduated with a Second Class Upper division. President of the Society of Automotive Engineers (2016-2017).",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // ""
       ]
     },
     {
@@ -113,8 +112,10 @@ const educationInfo = {
       logo: require("./assets/images/GSTS_logo.jpg"),
       subHeader: "High School Diploma in General Science",
       duration: "September 2008 - May 2012",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Graduated with 6 A's and 2 B's.",
+      descBullets: [
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
   ]
 };
@@ -146,14 +147,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Makerspace Associate | Robotics Lab Lead | Software Developer",
+      role: "Software Developer",
+      company: "Kumasi Hive",
+      companylogo: require("./assets/images/kumasi_hive_logo.jpg"),
+      date: "August 2021 – Present",
+      desc: "Volunteered for this role to gain more experience in professional software development.",
+      descBullets: [
+        "Develop frontend applications for Kumasi Hive subsidiaries like Hive Academy",
+        "Lead design engineer for all engineering hardware"
+      ]
+    },
+    {
+      role: "Robotics Lab Lead",
+      company: "Kumasi Hive",
+      companylogo: require("./assets/images/kumasi_hive_logo.jpg"),
+      date: "January 2020 – Present",
+      desc: "Volunteered to create the Robotics Lab as a result of my passion in robotics and my hope to work with them in the long term.",
+      descBullets: [
+        "Head of the robotics lab",
+        "Develops training curriculum and manual",
+        "Runs training programs to train the general public in robotics based on ROS"
+      ]
+    },
+    {
+      role: "Makerspace Associate",
       company: "Kumasi Hive",
       companylogo: require("./assets/images/kumasi_hive_logo.jpg"),
       date: "July 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Original role at Kumasi Hive. Worked in a team of 4 individuals to accomplish company objectives.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Head of the master craftsmen team",
+        "Lead design engineer for all engineering hardware",
+        "Lead of making and engineering of hardware components needed for any training program and/or projects",
+        "Lead of the Makerspace and responsible for all tools in equipment including 3D printers and laser cutters",
+        "Design and build necessary machines for the Hive Biolab"
       ]
     },
     {
@@ -161,7 +188,14 @@ const workExperiences = {
       company: "Kwame Nkrumah University of Science and Technology",
       companylogo: require("./assets/images/knust_logo.png"),
       date: "September 2017 – July 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Mandatory National Service posting. I was the teaching assistant to 3 supervisors, Dr F. Nyarko, Dr G. Takyi, and Mr M.N. Sackey.",
+      descBullets: [
+        "Organized and led tutorial extra class sessions",
+        "Substituted for supervisors in class when they were not available",
+        "Helped supervisors to grade student tests and exams",
+        "Ensured all needed logistics for class were available on time",
+        "Assisted supervisors with research work by writing code to perform data analysis as directed by supervisor"
+      ]
     },
   ]
 };
